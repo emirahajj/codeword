@@ -17,9 +17,8 @@ the only characters in the "alphabet" are upper case letters
 the regular expression should be A-Z.
 
 Since our alphabet has 26 letters, our queue and stack grow quickly
-each time we append a letter and push strings back onto our queues and stacks. 
-Because of this, the lengths of the codewords should be relatively short when testing
-with Depth First Search to avoid strain on memory.
+each time we pop, append letters and push. Because of this, the lengths of 
+the codewords should be relatively short when testing with Depth First Search to avoid strain on memory.
 */
 
 #ifndef CODEWORDGENERATOR_H_
