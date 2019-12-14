@@ -15,4 +15,3 @@ The only characters in the "alphabet" are upper case letters {A, B, C, ... , Z} 
 the regular expression are letters A-Z.
 
 Since our alphabet has 26 letters, our queue and stack grow quickly each time we pop, append letters and push. Because of this, the lengths of the codewords should be relatively short when testing with Depth First Search to avoid strain on memory.
-*/
