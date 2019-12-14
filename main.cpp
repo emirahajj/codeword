@@ -1,3 +1,5 @@
+//Tester file for CodewordGenerator class
+
 #include <string>
 #include <regex>
 #include <vector>
@@ -9,7 +11,7 @@
 
 int main()
 {
-	std::string a = "[A-Z]+BB[Y-Z]+"; //the pattern we want to search for
+	std::string a = "[A-Z]+BB[Y-Z]+";
 	//first one should be ABBY
 	std::string b = "[C-M]+[A-Y]+[G-O]*B";
 	//should be NMJ
