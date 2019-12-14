@@ -2,7 +2,7 @@
 Author: Emira Hajj
 
 In this program, we take create a CodewordGenerator
-class which countains two public methods:
+class which contains two public methods:
 
 generateShortestWord which takes in a string parameter and returns the shortest
 string that matches the pattern in Breadth First Search order utilizing a queue.
